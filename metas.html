@@ -4,55 +4,102 @@
     <!-- ===================================== -->
     <!-- METAS BÁSICAS -->
     <!-- ===================================== -->
-    <meta charset="UTF-8"> <!-- Codificación de caracteres -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Adaptación a móviles -->
-    <meta name="description" content="Página de ejemplo mostrando todas las meta etiquetas importantes en HTML.">
-    <meta name="keywords" content="HTML, meta, etiquetas, SEO, Open Graph, Twitter Cards, PWA">
-    <meta name="author" content="Evelyn Guzmán">
-    <meta name="robots" content="index, follow"> <!-- Controla indexación de buscadores -->
+    <meta charset="utf-8">
+    <!-- Define la codificación de caracteres de la página, asegurando que se muestren correctamente caracteres especiales como ñ o tildes. -->
+
+    <title>Tu título aquí</title>
+    <!-- Aparece en la pestaña del navegador y en los resultados de búsqueda. Es crucial para el SEO y la experiencia del usuario. -->
+
+    <meta name="description" content="Breve descripción del contenido de la página.">
+    <!-- Se muestra en los resultados de búsqueda y ayuda a los usuarios a entender de qué trata la página. -->
+
+    <meta name="keywords" content="palabra clave 1, palabra clave 2, palabra clave 3">
+    <!-- Aunque su importancia ha disminuido, algunos buscadores aún las consideran para categorizar el contenido. -->
+
+    <meta name="author" content="Nombre del autor">
+    <!-- Indica quién es el creador del contenido de la página. -->
+
+    <meta name="robots" content="index, follow">
+    <!-- Controla si los motores de búsqueda deben indexar la página y seguir los enlaces. -->
+
+    <meta name="language" content="es">
+    <!-- Indica el idioma principal de la página para buscadores y accesibilidad. -->
 
     <!-- ===================================== -->
     <!-- METAS DE CONTROL DEL NAVEGADOR -->
     <!-- ===================================== -->
-    <meta http-equiv="refresh" content="60"> <!-- Refresca la página cada 60 segundos -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidad con Internet Explorer -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'"> <!-- Política de seguridad -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Indica que la página debe renderizarse con la versión más reciente del motor de IE. -->
+
+    <meta http-equiv="refresh" content="5;url=https://nuevodestino.com">
+    <!-- Redirige al usuario a otra página después de 5 segundos. -->
+
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="expires" content="0">
+    <meta http-equiv="pragma" content="no-cache">
+    <!-- Controla la caché del navegador para evitar mostrar contenido antiguo. -->
+
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
+    <!-- Política de seguridad que restringe los recursos que puede cargar la página. -->
 
     <!-- ===================================== -->
     <!-- METAS PARA REDES SOCIALES (OPEN GRAPH) -->
     <!-- ===================================== -->
-    <meta property="og:title" content="Ejemplo de Metas HTML">
-    <meta property="og:description" content="Este es un ejemplo completo de meta etiquetas en HTML para aplicaciones web.">
-    <meta property="og:image" content="https://ejemplo.com/imagen.jpg">
-    <meta property="og:url" content="https://ejemplo.com">
+    <meta property="og:title" content="Título para redes sociales">
+    <meta property="og:description" content="Descripción para redes sociales">
+    <meta property="og:image" content="URL de la imagen">
+    <meta property="og:url" content="URL de la página">
     <meta property="og:type" content="website">
     <meta property="og:locale" content="es_ES">
+    <!-- Mejora la apariencia de la página cuando se comparte en redes sociales como Facebook. -->
 
     <!-- ===================================== -->
     <!-- METAS PARA TWITTER CARDS -->
     <!-- ===================================== -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Ejemplo de Metas HTML">
-    <meta name="twitter:description" content="Este es un ejemplo completo de meta etiquetas en HTML para aplicaciones web.">
-    <meta name="twitter:image" content="https://ejemplo.com/imagen.jpg">
+    <meta name="twitter:title" content="Título para Twitter">
+    <meta name="twitter:description" content="Descripción para Twitter">
+    <meta name="twitter:image" content="URL de la imagen">
     <meta name="twitter:site" content="@TuUsuarioTwitter">
     <meta name="twitter:creator" content="@TuUsuarioTwitter">
+    <!-- Personaliza cómo se muestra la página al compartirla en Twitter. -->
 
     <!-- ===================================== -->
     <!-- METAS PARA MÓVILES Y PWA -->
     <!-- ===================================== -->
-    <meta name="theme-color" content="#ffffff"> <!-- Color de la barra de navegación en móviles -->
-    <meta name="apple-mobile-web-app-capable" content="yes"> <!-- Permite instalar como app -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"> <!-- Estilo barra estado iOS -->
-    <meta name="mobile-web-app-capable" content="yes"> <!-- Para Android -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Asegura que la página se vea correctamente en dispositivos móviles ajustando el ancho y la escala. -->
+
+    <meta name="theme-color" content="#ffffff">
+    <!-- Cambia el color de la barra del navegador en móviles (Chrome, Edge, Safari). -->
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="mobile-web-app-capable" content="yes">
+    <!-- Permite instalar la página como aplicación web en iOS y Android. -->
+
+    <meta name="color-scheme" content="light dark">
+    <!-- Indica que tu página soporta modo claro y oscuro, mejorando la accesibilidad en dispositivos compatibles. -->
 
     <!-- ===================================== -->
-    <!-- TÍTULO -->
+    <!-- METAS ADICIONALES OPCIONALES -->
     <!-- ===================================== -->
-    <title>Ejemplo Completo de Metas HTML</title>
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+    <!-- Control de robots avanzado para Google, permitiendo configurar snippets, imágenes y videos. -->
+
+    <meta name="copyright" content="Nombre del propietario o empresa">
+    <!-- Especifica el titular de los derechos de la página web. -->
+
+    <meta name="version" content="1.0">
+    <!-- Indica la versión actual del sitio web, útil para control interno o desarrollo. -->
+
+    <!-- <meta name="google-site-verification" content="código-de-verificación"> -->
+    <!-- Permite que Google verifique que eres el propietario de la página para Search Console u otros servicios de Google. -->
+
 </head>
 <body>
     <h1>Hola Mundo</h1>
     <p>Este documento contiene prácticamente todas las metas más importantes en HTML para aplicaciones web.</p>
 </body>
 </html>
+
