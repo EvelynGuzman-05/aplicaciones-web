@@ -70,6 +70,7 @@ main section {
     align-items: center;
     justify-content: center;
   }
+
 }
 
 
@@ -139,3 +140,65 @@ main section {
     border: none;
    }
 
+   article {
+    position: absolute;
+    left: 45%;
+
+
+    h2{
+    font-size: 40px;
+    white-space: pre-line;
+    
+    }
+    
+    h3{
+      font-size: 20px;
+      margin-top: 8px;
+      margin-bottom: 20px;
+      
+    }
+
+    p{
+      font-size: 14px;
+      line-height: 1.5;
+      width: 290px;
+      letter-spacing: 0%;
+      font-style: light
+      
+
+    }
+    
+    button{
+
+      margin-bottom: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      text-transform: uppercase;
+      border: none;
+      border-radius: 45px;
+      cursor: pointer;
+      min-width: 48px;
+      min-height: 48px;
+      margin-right: 20px;
+    }
+
+      button.projects{
+        
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+      }
+
+      button.resume{
+        background-color: rgb(8, 8, 79);
+        color:white;
+        
+      }
+
+
+  }
+   
+  
+
+  
+   
