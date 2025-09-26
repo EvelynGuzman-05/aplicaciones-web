@@ -1,6 +1,7 @@
 :root {
-  --primary-color: violet;
+  --primary-color: rgb(16, 0, 43)
   --secondary-color: blue;
+  
 } 
 
 *{
@@ -129,7 +130,7 @@ main section {
       
     }
 
-  }
+   }
 }
 
   
@@ -147,12 +148,14 @@ main section {
 
     h2{
     font-size: 40px;
+    font-weight: 700;
     white-space: pre-line;
     
     }
     
     h3{
       font-size: 20px;
+      font-weight: 400;
       margin-top: 8px;
       margin-bottom: 20px;
       
@@ -160,6 +163,7 @@ main section {
 
     p{
       font-size: 14px;
+      font-weight: 300;
       line-height: 1.5;
       width: 290px;
       letter-spacing: 0%;
@@ -180,22 +184,21 @@ main section {
       min-width: 48px;
       min-height: 48px;
       margin-right: 20px;
-    }
+     
 
-      button.projects{
+      &.projects{
         
         background-color: white;
         color: black;
         border: 1px solid black;
       }
 
-      button.resume{
+      &.resume{
         background-color: rgb(8, 8, 79);
         color:white;
         
-      }
-
-
+      } 
+    }
   }
    
   
